@@ -34,7 +34,7 @@ console.log("La multiplicacion es: "+multiplicacion);
 console.log("La division es: "+division);
 */
 
-/*Cadena de texto que devuelve la longitud
+/*Cadena de texto que devuelve la longitud--------
 var string =prompt("Ingresa el texto");
 console.log("El texto es: "+ string+" con una longitud de "+string.length);
 */
