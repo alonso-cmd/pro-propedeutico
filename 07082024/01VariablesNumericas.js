@@ -47,3 +47,19 @@ console.log(mayusculas.toLowerCase());
 var minuscula =prompt("Ingresa texto en munuscula");
 console.log(minuscula.toUpperCase());
 */
+
+/* crear fecha----------------
+var dia =prompt("Ingresa el dia");
+var mes =prompt("Ingresa el mes");
+var año =prompt("Ingresa el año");
+
+console.log(dia+"/"+mes+"/"+año);
+*/
+function Cadena(){
+    var cadena = prompt("Ingresa el texto");
+    separar = cadena.split("");
+    console.log("el primer parametro es: "+separar[0]);
+    
+}
+Cadena();
+
