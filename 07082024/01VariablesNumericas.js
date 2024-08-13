@@ -34,8 +34,16 @@ console.log("La multiplicacion es: "+multiplicacion);
 console.log("La division es: "+division);
 */
 
-/*Cadena de texto que devuelve la longitud--------
+/*
+Cadena de texto que devuelve la longitud--------
 var string =prompt("Ingresa el texto");
 console.log("El texto es: "+ string+" con una longitud de "+string.length);
 */
 
+/* convertir mauisculas y minusculas----------------
+var mayusculas =prompt("Ingresa texto en mayuscula");
+console.log(mayusculas.toLowerCase());
+
+var minuscula =prompt("Ingresa texto en munuscula");
+console.log(minuscula.toUpperCase());
+*/
