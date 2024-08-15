@@ -32,7 +32,7 @@ FechaIn:"14/08/2024",
 FechaFin:"16/08/2024",
 Costo:10000
 };
-// cual es la reservacion con ams costo
+
 var Reservacion2={
     Nombre:"Carlos",
     NPersonas:4,
@@ -42,7 +42,16 @@ var Reservacion2={
     FechaFin:"20/08/2024",
     Costo:5000
     };
-    /*
+ 
+         if(Reservacion.Costo>Reservacion2.Costo)
+        console.log("La reservacion con mas costo es de "+Reservacion.Nombre);
+    else
+        console.log("La reservacion con mas costo es de "+ Reservacion2.Nombre);
+
+        
+
+
+           /*
     console.log(Reservacion.Nombre+" y "+Reservacion2.Nombre+ " Hicieron una recervacion "+
         Reservacion.Nombre+" en "+ Reservacion.CiudadReservacion+" en el hotel "+Reservacion.Hotel+
          " en la fecha de "+Reservacion.FechaIn+" a "+Reservacion.FechaFin+" para "+Reservacion.NPersonas+
@@ -50,9 +59,3 @@ var Reservacion2={
          Reservacion2.Hotel+" en la fecha de "+Reservacion2.FechaIn+" a "+Reservacion2.FechaFin+
          " para "+Reservacion2.NPersonas+" personas ");
          */
-    if(Reservacion.Costo>Reservacion2.Costo)
-        console.log("La reservacion con mas costo es de "+Reservacion.Nombre);
-    else
-        console.log("La reservacion con mas costo es de "+ Reservacion2.Nombre);
-
-        
