@@ -34,32 +34,5 @@ console.log("La multiplicacion es: "+multiplicacion);
 console.log("La division es: "+division);
 */
 
-/*
-Cadena de texto que devuelve la longitud--------
-var string =prompt("Ingresa el texto");
-console.log("El texto es: "+ string+" con una longitud de "+string.length);
-*/
 
-/* convertir mauisculas y minusculas----------------
-var mayusculas =prompt("Ingresa texto en mayuscula");
-console.log(mayusculas.toLowerCase());
-
-var minuscula =prompt("Ingresa texto en munuscula");
-console.log(minuscula.toUpperCase());
-*/
-
-/* crear fecha----------------
-var dia =prompt("Ingresa el dia");
-var mes =prompt("Ingresa el mes");
-var año =prompt("Ingresa el año");
-
-console.log(dia+"/"+mes+"/"+año);
-*/
-function Cadena(){
-    var cadena = prompt("Ingresa el texto");
-    separar = cadena.split("");
-    console.log("el primer parametro es: "+separar[0]);
-    
-}
-Cadena();
 

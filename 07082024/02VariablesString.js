@@ -53,14 +53,14 @@ function cadenas(){
     cadena1se = cadena1.split("");
     cadena2se = cadena2.split("");
 
-    arreglo = cadena1se.length;
-    arreglo2 = cadena2.length;
+    longcadena1 = cadena1se.length;
+    longcadena2 = cadena2.length;
 
-    if(arreglo>arreglo2){
-        console.log("el primer texto es mayor");
+    if(longcadena1>longcadena2){
+        console.log("el primer texto es mayor  "+longcadena1);
     }
-    if(arreglo2>arreglo){
-        console.log("el segundo arreglo es mayor");
+    if(longcadena2>longcadena1){
+        console.log("el segundo arreglo es mayor  "+longcadena2);
     }
    // console.log("el primer parametro de primer texto es: "+cadena1se[0]);
     //console.log("el primer parametro del segundo texto es: "+cadena2se[0]);
