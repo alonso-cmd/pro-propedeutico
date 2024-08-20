@@ -68,7 +68,7 @@ else
 console.log("El estudiante "+Estudiante5.Nombre+" No es acreditado");
 */
 
-/*banco--------------------------
+/*banco--------------------------*/
 Nombre = prompt("ingresa tu nombre completo");
 Cuenta = parseInt(prompt("Ingresa tu numero de cueta"));
 Prestamo = parseInt(prompt("Ingresa la cantidad total del prestamo"));
@@ -79,4 +79,4 @@ var Solicitante={Nombre,Cuenta,Prestamo,Abono};
 console.log("Hola "+Solicitante.Nombre+" esta es tu cuenta "+
     Solicitante.Cuenta+" de un total de "+Solicitante.Prestamo+
     " y con la cantidad abonada te restaria "+ (Prestamo-Abono) +" Pesos");
-*/
+
