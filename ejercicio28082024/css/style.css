@@ -1,0 +1,37 @@
+/*
+Regla CSS: esta dividida en 2 partes
+1.- el selector
+2.- bloque de declaraciones(atributos a modificar)
+
+*/
+
+h1{
+    color: orangered;
+    background-color: skyblue;
+}
+
+/*
+Existen 3 tipos de selectores
+1.- etiqueta
+2.- identificador
+3.- clases (mas recomenaddo)
+*/
+/*-----estilos por identificador-------*/
+#idParrafo2{
+    background-color: purple;
+    color: azure;
+}
+
+/*---------estilo por clases--------*/
+.text-20{
+    font-size: 20px;
+}
+
+.text-35{
+    font-size: 35px;
+}
+
+.bg-skayblue{
+    background-color: aqua;
+}
+
