@@ -4,5 +4,19 @@
   list-style-type: none;
   display: block;
  
+}
+
+.form {
+  /* Centrar el formulario en la página */
+  background-color: rgb(162, 158, 158);
+  margin-left: 100px;
  
+  width: 500px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+.table{
+  background-color: rgb(255, 255, 255);
 }

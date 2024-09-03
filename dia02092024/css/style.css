@@ -1,0 +1,70 @@
+.titulo1{
+    color: Crimson;
+    font-style: italic;
+    
+}
+.etiqueta1{
+    background-color: lightsalmon; 
+    font-style: oblique; 
+    color: white;
+}
+.etiqueta2{
+    background-color: IndianRed; 
+    font-style:italic;
+    color: white;
+}
+.etiqueta3{
+    background-color: FireBrick; 
+    font-style:inherit;
+    color: white;
+}
+.etiqueta4{
+    background-color: DarkRed; 
+    font-style:unset;
+    color: white;
+}
+@font-face{
+    font-family: "Pecita";
+    src: url("../css/Pecita.woff");
+}
+.tipo_letra_1{
+    font-family: "Pecita";
+}
+.tamaño_letra1{
+    font-size: 20px;
+}
+.menu{
+    align-items:start;
+  display: flex;
+  list-style-type: none;
+  display: block;
+ 
+}
+.colorhexa{
+    background-color: #CD5C5C; 
+    font-style:italic;
+    color: white;
+}
+@font-face{
+    font-family: "Chalet";
+    src: url("../css/Chalet.woff");
+}
+.tipo_letra_2{
+    font-family: "Chalet";
+}
+.tamaño_letra2{
+    font-size: 20px;
+}
+.tamaño_letra3{
+    font-size: 25px;
+}
+.tamaño_letra4{
+    font-size: 30px;
+}
+.tamaño_letra5{
+    font-size: 35px;
+}
+.colorrgb1{
+   background-color: rgb(178, 34, 34);
+  
+}

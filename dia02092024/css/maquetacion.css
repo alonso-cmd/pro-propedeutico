@@ -1,0 +1,9 @@
+.contenedor{
+    background-color: lightsalmon; 
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item{
+    color: FireBrick;
+}
