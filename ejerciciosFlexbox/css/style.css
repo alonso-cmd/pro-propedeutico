@@ -1,0 +1,90 @@
+.contenedor2{
+    
+    height: 500px;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    color: white;
+    font-size: 40px;
+    text-align: center
+    
+  
+}
+.contenedor3{
+    display: flex;
+    padding: 20px;
+    flex-direction: column-reverse;
+    color: white;
+    font-size: 20px;
+    text-align: center ;
+  width: 800px;
+}
+.uno{
+    background-color: #82e0aa;
+    padding: 10px;
+}
+.dos{
+    background-color: #3498db;
+    padding: 10px;
+}
+.tres{
+    background-color: #af7ac5;
+    padding: 10px;
+}
+.cuatro{
+    background-color: #2c3e50;
+    padding: 10px;
+}
+.cinco{
+    background-color: #f1c40f;
+    padding: 10px;
+}
+.seis{
+    background-color: #d35400;
+    padding: 10px;
+}
+.siete{
+    background-color: #e74c3c;
+    padding: 10px;
+}
+.ocho{
+    background-color: #d5dbdb;
+    padding: 10px;
+}
+.nueve{
+    background-color: #2ecc71;
+    padding: 10px;
+}
+.diez{
+    background-color: #117a65;
+    padding: 10px;
+}
+.contenedor4{
+    background-color: #5b2c6f;
+    display: flex;
+    padding: 20px;
+    flex-direction: column-reverse;
+    color: white;
+    font-size: 20px;
+    text-align: center ;
+    width: 800px;
+}
+.contenedor4-1{
+    
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.primero{
+    background-color:#2ecc71;
+}
+.segundo{
+    background-color:#2ecc71;
+}
+.tercero{
+    background-color:#2ecc71;
+}
