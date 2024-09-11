@@ -1,0 +1,33 @@
+.contenedorB{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    background-color: dimgray;
+    border:medium solid black;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: auto 400px auto;
+    
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar content"
+    "footer footer";
+}
+.header{
+    grid-area: header;
+}
+.content{
+    grid-area: content;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+}
+.item{
+    padding: 1rem;
+    background-color: gray;
+    border: medium solid whitesmoke;
+}

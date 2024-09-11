@@ -1,9 +1,7 @@
 body{
-
     font-size: 16px;
-
-
 }
+
 .contenedor{
     margin: 0 auto;
     width: 80%;
@@ -70,6 +68,8 @@ gap:0;
     
 }
 
+
+
 .contenedorA{
     margin: 0 auto;
     width: 40%;
@@ -98,17 +98,51 @@ gap:0;
     grid-row: 3/4;
 }
 
-.contenedorB{
+
+.contenedorEj3{
     margin: 0 auto;
     width: 40%;
     height: 40%;
-    text-align: center;
-    color: white;
     background-color: darkkhaki;
     border:medium solid black;
     display: grid;
+    text-align:center;
 
-    grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 20% 1fr;
-
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+}
+article{
+    padding: 1rem;
+    font-size: 14px;
+    background-color:chocolate;
+    border: medium solid whitesmoke;
+    text-align: center;
+    font-size: 10px;
+}
+.contenedorEj3 .itemA:nth-child(1){
+    background-color: Yellow;
+    grid-area: 1/1/2/5;
+    font-size: 20px;
+}
+.contenedorEj3 .itemB:nth-child(2){
+    background-color: PaleTurquoise;
+}
+.contenedorEj3 .itemC:nth-child(3){
+    background-color: Violet;
+}
+.contenedorEj3 .itemD:nth-child(4){
+    background-color: Gold;
+}
+.contenedorEj3 .itemE:nth-child(5){
+    background-color: Brown;
+}
+.contenedorEj3 .itemF:nth-child(6){
+    background-color: aqua;
+}
+.contenedorEj3 .itemG:nth-child(7){
+    background-color: LimeGreen;
+}
+.contenedorEj3 .itemH:nth-child(8){
+    background-color: plum;
+    grid-area: 2/4/4/5;
 }
