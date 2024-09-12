@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+			<form>
+		<div class="form-group">
+			<label for="cve" class="form-label">Clave de acceso:</label>
+			<input type="password" name="clave" id="clave" class="form-control">
+		</div>
+		<label for="usuario" class="form-label">Usuario:</label>
+		<input type="text" name="usuario" id="usuario" class="form-control" placeholder="desactivado" disabled>
+		<label for="email">Correo electrónico:</label>
+		<input type="email" name="email" id="email" class="form-control" placeholder="desactivado" disabled readonly>
+
+		<h2>Cajas de tipo large</h2>
+		<label for="cale" class="form-label">Calle:</label>
+		<input type="text" name="calle" id="calle" class="form-control form-control-lg" placeholder="Nombre de la calle donde vives" >
+
+		<h2>Cajas de tipo small</h2>
+		<label for="ciudad" class="form-label">Ciudad:</label>
+		<input type="text" name="ciudad" id="ciudad" class="form-control form-control-sm" placeholder="Nombre de la ciudad donde vives" >
+
+		<label for="lista" class="form-label">Escribe tus pasatiempos:</label>
+		<input list="opciones" id="pasatiempos" class="for-control" placeholder="pasatiempos">
+		<datalist id="opciones">
+			<option value="Dormir"></option>
+			<option value="Descansar"></option>
+			<option value="Meditar"></option>
+			<option value="Pasear"></option>
+		</datalist>
+	</form>
+	</div>
+</body>
+</html>

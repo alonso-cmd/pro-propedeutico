@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="utf-8">
+	<title>Dropdown</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid"> 
+    <h2>Dropdown básico</h2>
+    <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Lenguajes programación
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">HTML5</a></li>
+      <li><a class="dropdown-item" href="#">CSS</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <h2>Dropdown con enlaces</h2>
+  <div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        Lenguajes de programación
+      </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">HTML5</a></li>
+      <li><a class="dropdown-item" href="#">CSS</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <h2>Dropdown con colores contextuales</h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Lenguajes de programación
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">Python</a></li>
+      <li><a class="dropdown-item" href="#">C++</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">C#</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <h2>Dropdown con botones agrupados</h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-danger">Dropdown con botones agrupados</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">Python</a></li>
+      <li><a class="dropdown-item" href="#">C++</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">C#</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <h2>Dropdown con botones largos, normales y botones agrupados</h2>
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Botón Large (lg)
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">Python</a></li>
+      <li><a class="dropdown-item" href="#">C++</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">C#</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg" type="button">
+      Botón split largo
+    </button>
+    <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">Python</a></li>
+      <li><a class="dropdown-item" href="#">C++</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">C#</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <h2>Dropdown con botones small, normales y botones agrupados</h2>
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown con botón Small (sm)
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Javascript</a></li>
+        <li><a class="dropdown-item" href="#">Python</a></li>
+        <li><a class="dropdown-item" href="#">C++</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">C#</a></li>
+      </ul>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-sm" type="button">
+      Dropdown con botón dividido Small (sm)
+    </button>
+    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Javascript</a></li>
+      <li><a class="dropdown-item" href="#">Python</a></li>
+      <li><a class="dropdown-item" href="#">C++</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">C#</a></li>
+    </ul>
+  </div>
+
+  <hr>
+  <h2>Dropdown con opciones oscuras</h2>
+  <div class="btn-group">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown con opciones oscuras
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item" href="#">Javascript</a></li>
+        <li><a class="dropdown-item" href="#">Python</a></li>
+        <li><a class="dropdown-item" href="#">C++</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">C#</a></li>
+      </ul>
+    </div>
+  </div>
+ </div>
+
+</body>
+</html>
