@@ -1,0 +1,68 @@
+body{
+    background-color: bisque;
+}
+.contenedor{
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+}
+.titulo{
+    background-color: white;  
+}
+
+.imgPrincipal{
+    width: 605px;
+    height: auto;
+}
+.contenedor2{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    background-color: darkkhaki;
+    border:medium solid black;
+    display: grid;
+
+    grid-template-columns: 50% auto;
+    grid-template-rows: repeat(1,auto);
+}
+article{
+
+    font-size: 14px;
+    background-color:dodgerblue;
+    border: medium solid black;
+    text-align: center;
+    font-size: 10px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+button{
+    background-color: green;
+    color: white;
+}
+.contenedor3{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    background-color: darkkhaki;
+    border:medium solid black;
+    display: grid;
+
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+}
+.img2{
+    width: 100%;
+    height: auto;
+}
+.img3{
+    width: 100%;
+    height: auto;
+}
