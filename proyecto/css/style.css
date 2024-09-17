@@ -24,6 +24,7 @@ article{
     border: medium solid white;
     text-align: center;
     font-size: 10px;
+    font-family: "playfair";
 }
 .contenedor3{
     margin: 0 auto;
@@ -48,6 +49,11 @@ article{
 h2{
     background-color: transparent;
     color: black;
+    font-family: "playfairVariable";
+}
+nav{
+    padding: 10px;
+    font-family: "relaway";
 }
 .contenedor5{
     margin: 0 auto;
@@ -81,7 +87,9 @@ h2{
     display: flex;
     list-style-type: none;
     display: block;
-
+}
+img{
+    font-family: "playfair";
 }
 .contenedor8{
     margin: 0 auto;
@@ -90,4 +98,28 @@ h2{
     text-align: center;
     display: grid;
 }
+footer{
+    font-family: "playfairVariable";
+}
 
+@font-face{
+    font-family: "playfair";
+    src: url("../css/PlayfairItalic.ttf");
+}
+.fuente-playfair{
+    font-family: "playfair";
+}
+@font-face{
+    font-family: "playfairVariable";
+    src: url("../css/PlayfairVariable.ttf");
+}
+.fuente-playfairVariable{
+    font-family: "playfairVariable";
+}
+@font-face{
+    font-family: "relaway";
+    src: url("../css/Raleway.ttf");
+}
+.fuente-relaway{
+    font-family: "relaway";
+}
