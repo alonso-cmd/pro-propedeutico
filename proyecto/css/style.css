@@ -123,10 +123,7 @@ footer{
 .fuente-relaway{
     font-family: "relaway";
 }
-.contenedorCarrusel{
-    margin: 0 auto;
-    width: 40%;
-    height: 10%;
-    text-align: center;
-    display: grid;
+.carousel-item{
+    width: 100%;
+    height: 100%;
 }
